@@ -1,7 +1,7 @@
 # WS_Android-DownloadImagefromURL_Function
 Android download image from URL.
 
-> Syntax
+> Example
 
 ```java
 public static Bitmap getBitmapFromURL(String src) 
@@ -23,5 +23,5 @@ public static Bitmap getBitmapFromURL(String src)
             Log.e("Exception",e.getMessage());
             return null;
         }
-    }
+}
 ```
